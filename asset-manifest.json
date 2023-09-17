@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/atmx/static/css/main.664d782c.css",
+    "main.js": "/atmx/static/js/main.8272c98e.js",
+    "static/js/522.ba32f517.chunk.js": "/atmx/static/js/522.ba32f517.chunk.js",
+    "service-worker.js": "/atmx/service-worker.js",
+    "index.html": "/atmx/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.664d782c.css",
+    "static/js/main.8272c98e.js"
+  ]
+}
