@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ATMx/static/css/main.664d782c.css",
-    "main.js": "/ATMx/static/js/main.266aa097.js",
-    "static/js/522.ba32f517.chunk.js": "/ATMx/static/js/522.ba32f517.chunk.js",
-    "service-worker.js": "/ATMx/service-worker.js",
-    "index.html": "/ATMx/index.html"
+    "main.css": "./static/css/main.664d782c.css",
+    "main.js": "./static/js/main.6c4b5810.js",
+    "static/js/522.ba32f517.chunk.js": "./static/js/522.ba32f517.chunk.js",
+    "service-worker.js": "./service-worker.js",
+    "index.html": "./index.html"
   },
   "entrypoints": [
     "static/css/main.664d782c.css",
-    "static/js/main.266aa097.js"
+    "static/js/main.6c4b5810.js"
   ]
 }
