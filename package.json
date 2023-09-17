@@ -2,8 +2,8 @@
   "name": "atmx",
   "description": "Interactive Web Demo using MediaPipe Solutions",
   "version": "0.1.1",
-  "private": true,
-  "homepage": "https://neilblaze.github.io/atmx",
+  "private": false,
+  "homepage": "https://neilblaze.github.io/ATMx",
   "dependencies": {
     "@mediapipe/tasks-vision": "^0.10.2",
     "@reduxjs/toolkit": "^1.9.5",
