@@ -13,28 +13,21 @@
 # limitations under the License.
 # ==============================================================================
 
-# This workflow is designed to automate unit testing for your codebase.
-# It triggers when pull requests are opened or pushed to the repository.
+# This workflow is designed to automatically assign newly opened issues to a specific user.
+# It triggers when new issues are opened in the repository.
 
-name: Unit Tests
+name: Issue assignment
 
-on: [pull_request, push]
+on:
+    issues:
+        types: [opened]
 
 jobs:
-  tests:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x]
-    
-    steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: npm install
-        run: npm ci
-      - name: tests
-        run: npm test
+    auto-assign:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 'Auto-assign issue'
+              uses: pozil/auto-assign-issue@v1.11.0
+              with:
+                  assignees: neilblaze
+                  numOfAssignee: 1
